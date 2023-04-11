@@ -1,7 +1,7 @@
 vim.cmd [[
   let mapleader = " "
   map <leader>e :NvimTreeToggle<CR>
-	inoremap <silent><expr <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+	inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 	xmap <leader>a <Plug>(coc-codeaction-selected)
   nmap <leader>a <Plug>(coc-codeaction-selected)

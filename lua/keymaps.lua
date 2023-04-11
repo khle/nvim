@@ -2,7 +2,8 @@ vim.cmd [[
   let mapleader = " "
   map <leader>e :NvimTreeToggle<CR>
 	inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
-
+  nnoremap <leader>fr :CocCommand flutter.run<CR>
+  nnoremap <leader>fd :below new output:///flutter-dev <CR>
 	xmap <leader>a <Plug>(coc-codeaction-selected)
   nmap <leader>a <Plug>(coc-codeaction-selected)
 

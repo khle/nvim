@@ -24,7 +24,7 @@ vim.cmd [[
 	" map <leader>wx :close<CR>
 
 	" FZF
-	nmap C-P> :FZF<CR>
+	nmap <C-P> :FZF<CR>
 
 	nmap <leader>ff :Telescope find_files<CR>
 	nmap <leader>fs :Telescope live_grep<CR>

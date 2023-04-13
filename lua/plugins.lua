@@ -17,8 +17,11 @@ require "paq" {
 		"nvim-lualine/lualine.nvim",
 
 		-- Telescope
-    { "nvim-telescope/telescope-fzf-native.nvim", run = "make" },
-    { "nvim-telescope/telescope.nvim", branch = "0.1.x" },
+    -- { "nvim-telescope/telescope-fzf-native.nvim", run = "make" },
+    -- { "nvim-telescope/telescope.nvim", branch = "0.1.x" },
+    { 'junegunn/fzf', run = './install --bin', },
+    { "ibhagwan/fzf-lua", branch = "main" },
+
 
 		"SirVer/ultisnips",
 		"honza/vim-snippets",

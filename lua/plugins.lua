@@ -17,8 +17,9 @@ require "paq" {
 		"nvim-lualine/lualine.nvim",
 
 		-- Telescope
-    -- { "nvim-telescope/telescope-fzf-native.nvim", run = "make" },
-    -- { "nvim-telescope/telescope.nvim", branch = "0.1.x" },
+    { "nvim-telescope/telescope-fzf-native.nvim", run = "make" },
+    { "nvim-telescope/telescope.nvim", branch = "0.1.x" },
+		"nvim-telescope/telescope-file-browser.nvim",
     { 'junegunn/fzf', run = './install --bin', },
     { "ibhagwan/fzf-lua", branch = "main" },
 
@@ -33,7 +34,10 @@ require "paq" {
 		-- "natebosch/vim-lsc-dart",
 		{ "neoclide/coc.nvim",  branch = "release" },
 
+		{"neovim/nvim-lspconfig"},
+
     -- Tree 
+		"nvim-tree/nvim-web-devicons",
     "nvim-tree/nvim-tree.lua",        
 
     -- { "akinsho/flutter-tools.nvim", requires = "nvim-lua/plenary.nvim" },

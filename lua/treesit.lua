@@ -1,5 +1,5 @@
 require('nvim-treesitter.configs').setup {
-  ensure_installed = { "lua", "rust", "toml", "dart" },
+  ensure_installed = { "lua", "rust", "toml", "dart", "typescript", "javascript", "html", "css" },
   auto_install = true,
   highlight = {
     enable = true,

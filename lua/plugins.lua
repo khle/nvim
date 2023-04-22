@@ -48,4 +48,7 @@ require "paq" {
 
     --  lsp plugin based on neovim built-in lsp
    "glepnir/lspsaga.nvim",
+
+	 -- tree sitter
+   "nvim-treesitter/nvim-treesitter",
 }

@@ -8,6 +8,7 @@ require('cocextensions')
 require('telescopefzf')
 require('fzflua')
 require('lspcfg')
+require('treesit')
 
 -- require('fluttertools')
 -- require('compesnippets')
